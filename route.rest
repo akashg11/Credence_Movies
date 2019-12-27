@@ -1,0 +1,17 @@
+// Getting all
+GET http://localhost:3000/api/movies
+
+// Getting One
+###
+GET http://localhost:3000/movies/api/get-by-id/5dfeca521c91af2aee248231
+
+// ng one
+###
+POST http://localhost:3000/movies/api/add-movie
+Content-Type: application/json
+
+{
+    "name":"Harry Potter and the Order of the Phoenix",
+    "img":"https://bit.ly/2IcnSwz",
+    "summary":"Harry Potter and Dumbledores warning about the return of Lord Voldemort is not heeded by the wizard authorities who, in turn, look to undermine Dumbledores authority at Hogwarts and discredit Harry"
+}
